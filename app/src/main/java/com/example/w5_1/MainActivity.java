@@ -128,7 +128,7 @@ public class MainActivity extends AppCompatActivity implements GestureDetector.O
                 sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER));
     }
 
-    float significant_shake = 900;
+    float significant_shake = 1000;
     long lastUpdate = 0;
 
     private final SensorEventListener sensorEventListener = new SensorEventListener() {
